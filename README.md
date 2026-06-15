@@ -58,126 +58,241 @@ The dataset contains customer information including:
 
 # 1️⃣ Customer Demographics Analysis
 
-### Objective
-Analyze customer demographic patterns and their relationship with churn.
+### Dashboard Preview
 
-### Key Questions Answered
+![Customer Demographics Analysis](Page1.png)
 
-- What is the proportion of male and female customers?
-- How many senior citizens have churned compared to non-senior citizens?
-- How are customers distributed across tenure groups?
-- How does churn vary across tenure segments?
-- Does average monthly spending increase with customer tenure?
-- What relationship exists between tenure and monthly charges across genders?
-- What are the overall customer metrics filtered by gender and contract type?
+### Key Findings
 
-### Key KPIs
+**1. What is the proportion of male and female customers?**
 
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Average Monthly Charges
-- Average Tenure
+* Male Customers: 50.5%
+* Female Customers: 49.5%
+* Customer distribution is nearly balanced across genders.
 
-### Key Insights
+**2. How many senior citizens have churned compared to non-senior citizens?**
 
-- Customer distribution is nearly balanced across genders.
-- New customers show the highest churn rates.
-- Churn decreases significantly as customer tenure increases.
-- Long-term customers demonstrate stronger retention behavior.
+* Non-senior customers account for the majority of customers.
+* Senior citizens show a relatively higher churn tendency compared to non-senior customers.
+
+**3. How are customers segmented across different tenure ranges?**
+
+* 0–1 Year: 2.2K customers
+* 1–2 Years: 1.0K customers
+* 2–3 Years: 0.8K customers
+* 3–4 Years: 0.8K customers
+* 4–5 Years: 0.8K customers
+* 5–6 Years: 1.4K customers
+
+**4. How does the churn rate differ across tenure segments?**
+
+* 0–1 Year: 47%
+* 1–2 Years: 29%
+* 2–3 Years: 22%
+* 3–4 Years: 19%
+* 4–5 Years: 14%
+* 5–6 Years: 7%
+
+**5. Key Customer Metrics**
+
+* Total Customers: 7K
+* Churned Customers: 2K
+* Churn Rate: 26.54%
+* Average Monthly Charges: $64.76
+* Average Tenure: 32.37 Months
 
 ---
 
 # 2️⃣ Service Subscription Analysis
 
-### Objective
-Evaluate service adoption patterns and identify service-related churn drivers.
+### Dashboard Preview
 
-### Key Questions Answered
+![Service Subscription Analysis](Page2.png)
 
-- How many customers subscribe to phone service?
-- What is the churn rate across internet service types?
-- Which add-on services are commonly used by churned customers?
-- Does subscribing to more services reduce churn?
-- Which service combinations are associated with higher churn?
-- How does churn vary between Fiber Optic, DSL, and No Internet customers?
-- How does service usage differ across customer segments?
+### Key Findings
 
-### Key KPIs
+**1. How many customers are subscribed to phone service?**
 
-- Total Customers
-- Churned Customers
-- Churn Rate
+* 6K customers (90.32%) use Phone Service.
+* 1K customers (9.68%) do not use Phone Service.
 
-### Key Insights
+**2. What is the churn rate across internet service types?**
 
-- Fiber Optic customers exhibit the highest churn rate.
-- Customers using fewer services tend to churn more frequently.
-- Certain add-on services are strongly associated with customer retention.
-- Service combinations significantly impact churn behavior.
+* Fiber Optic: 42%
+* DSL: 19%
+* No Internet: 7%
+
+**3. Which add-on services are most commonly used by churned customers?**
+
+* Streaming Services
+* Online Backup
+* Online Security
+* Tech Support
+
+**4. Is there a correlation between the number of subscribed services and churn?**
+
+* Customers with fewer services show higher churn risk.
+* Customers using multiple services demonstrate stronger retention.
+
+**5. Service Usage Insights**
+
+* Phone service adoption exceeds 90%.
+* Service bundles improve customer retention.
+* Fiber Optic customers have the highest churn rate.
+
 
 ---
 
 # 3️⃣ Contract & Billing Insights
 
-### Objective
-Understand how billing practices and contract structures influence customer churn.
+### Dashboard Preview
 
-### Key Questions Answered
+![Contract & Billing Insights](Page3.png)
 
-- How does churn differ across contract types?
-- What payment methods are associated with higher churn?
-- What is the average total charge for each contract type?
-- How do monthly charges vary by payment method?
-- Does paperless billing influence churn?
-- How is customer tenure distributed across contracts?
-- What billing metrics can be monitored using interactive filters?
+### Key Findings
 
-### Key KPIs
+**1. How does churn rate differ by contract type?**
 
-- Average Charges
-- Total Churn
-- Churn Rate
-- Revenue Lost
+* Month-to-Month: 42.71%
+* One-Year: 11.27%
+* Two-Year: 2.83%
 
-### Key Insights
+**2. What is the distribution of churn across payment methods?**
 
-- Month-to-month contracts experience the highest churn.
-- Two-year contracts demonstrate the strongest retention rates.
-- Electronic check customers show higher churn tendencies.
-- Longer contract commitments are associated with higher customer lifetime value.
+* Electronic Check customers show the highest churn volume.
+* Automatic payment methods show lower churn levels.
+
+**3. What is the average total charge by contract type?**
+
+* Two-Year Contract: Highest average total charges.
+* One-Year Contract: Moderate average charges.
+* Month-to-Month Contract: Lowest average charges.
+
+**4. Is there a relationship between paperless billing and churn?**
+
+* Paperless billing customers exhibit higher churn volume than non-paperless billing customers.
+
+**5. Billing Metrics**
+
+* Average Charges: $64.76
+* Total Churn: 2K
+* Churn Rate: 26.54%
+* Revenue Lost: $139K+
 
 ---
 
 # 4️⃣ Churn Prediction & Key Drivers
 
-### Objective
-Identify the major drivers of customer churn and estimate revenue impact.
+### Dashboard Preview
 
-### Key Questions Answered
+### Key Findings
 
-- What is the overall churn rate?
-- Which factors most influence churn?
-- Which customer segments are at highest risk?
-- What is the revenue impact of customer churn?
-- How is churn distributed across different customer groups?
-- Where is churn most concentrated?
+**1. What is the overall customer churn rate?**
 
-### Key KPIs
+* Overall churn rate: 26.54%.
 
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Revenue Lost
-- Revenue Retained
+**2. Which customer segments are most likely to churn?**
+
+* Month-to-month customers.
+* Short-tenure customers.
+* Fiber Optic users.
+* Electronic Check users.
+
+**3. What are the major churn drivers?**
+
+* Month-to-month contracts.
+* Short customer tenure.
+* Fiber Optic internet service.
+* Higher monthly charges.
+
+**4. What is the revenue impact of churn?**
+
+* Customer churn contributes to significant revenue loss.
 
 ### Key Insights
 
-- Month-to-month customers represent the highest-risk segment.
-- Fiber Optic users have significantly higher churn rates.
-- Customers with shorter tenure are more likely to leave.
-- Churn results in substantial revenue loss.
-- Long-term contract customers show the strongest retention.
+* Month-to-month contracts are the strongest churn driver.
+* Fiber Optic customers are more likely to churn.
+* Short-tenure customers have the highest churn risk.
+* Retention initiatives should focus on high-risk customer groups.
+
+
+---
+
+# 3️⃣ Contract & Billing Insights
+
+### Dashboard Preview
+
+![Contract & Billing Insights](Page3.png)
+
+### Key Findings
+
+**1. How does churn rate differ by contract type?**
+
+* Month-to-Month: 42.71%
+* One-Year: 11.27%
+* Two-Year: 2.83%
+
+**2. What is the distribution of churn across payment methods?**
+
+* Electronic Check customers show the highest churn volume.
+* Automatic payment methods show lower churn levels.
+
+**3. What is the average total charge by contract type?**
+
+* Two-Year Contract: Highest average total charges.
+* One-Year Contract: Moderate average charges.
+* Month-to-Month Contract: Lowest average charges.
+
+**4. Is there a relationship between paperless billing and churn?**
+
+* Paperless billing customers exhibit higher churn volume than non-paperless billing customers.
+
+**5. Billing Metrics**
+
+* Average Charges: $64.76
+* Total Churn: 2K
+* Churn Rate: 26.54%
+* Revenue Lost: $139K+
+
+---
+
+# 4️⃣ Churn Prediction & Key Drivers
+
+### Dashboard Preview
+
+![Churn Prediction & Key Drivers](Page4.png)
+
+### Key Findings
+
+**1. What is the overall customer churn rate?**
+
+* Overall churn rate: 26.54%.
+
+**2. Which customer segments are most likely to churn?**
+
+* Month-to-month customers.
+* Short-tenure customers.
+* Fiber Optic users.
+* Electronic Check users.
+
+**3. What are the major churn drivers?**
+
+* Month-to-month contracts.
+* Short customer tenure.
+* Fiber Optic internet service.
+* Higher monthly charges.
+
+**4. What is the revenue impact of churn?**
+
+* Customer churn contributes to significant revenue loss.
+
+### Key Insights
+
+* Month-to-month contracts are the strongest churn driver.
+* Fiber Optic customers are more likely to churn.
+* Short-tenure customers have the highest churn risk.
+* Retention initiatives should focus on high-risk customer groups.
 
 ---
 
@@ -228,19 +343,6 @@ Identify the major drivers of customer churn and estimate revenue impact.
 
 ---
 
-## 📷 Dashboard Screenshots
-
-### Customer Demographics Analysis
-![Dashboard 1](images/Page1.png)
-
-### Service Subscription Analysis
-![Dashboard 2](images/Page2.png)
-
-### Contract & Billing Insights
-![Dashboard 3](images/Page3.png)
-
-### Churn Prediction & Key Drivers
-![Dashboard 4](images/Page4.png)
 
 ---
 
